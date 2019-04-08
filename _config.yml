@@ -4,5 +4,10 @@ author: ASM Team
 #email: your-email@domain.com
 description: Code, Build, and Run on your mobile device.
 
-show_excerpts: true # set to false to remove excerpts on the homepage
-theme: jekyll-theme-cayman
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
